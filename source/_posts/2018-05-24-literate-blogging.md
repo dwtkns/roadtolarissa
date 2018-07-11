@@ -22,7 +22,7 @@ Now this site is built with just **60 lines of code**. And they're run directly 
 
 Each post is a markdown file in the `source/_posts` folder. The posts get read in, parsed and written out to `public/` as an HTML file using one of templates from `source/_templates`.
 
-Static files that don't need preprocessing, like images or javascript, are copied directly from `source/` to `public/` with `rysnc` in preperation for publishing. 
+Static files that don't need preprocessing, like images or javascript, are copied directly from `source/` to `public/` with `rysnc` in preparation for publishing. 
 
 ```javascript
 var fs = require('fs')
